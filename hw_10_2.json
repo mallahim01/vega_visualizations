@@ -1,0 +1,438 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "values": [
+        {
+          "Rank": 1,
+          "City": "Sydney",
+          "State/Territory": "New South Wales",
+          "Population_2017": 5131326,
+          "Growth": 16.84,
+          "Percentage": 20.86
+        },
+        {
+          "Rank": 2,
+          "City": "Melbourne",
+          "State/Territory": "Victoria",
+          "Population_2017": 4850740,
+          "Growth": 21.27,
+          "Percentage": 19.72
+        },
+        {
+          "Rank": 3,
+          "City": "Brisbane",
+          "State/Territory": "Queensland",
+          "Population_2017": 2408223,
+          "Growth": 16.56,
+          "Percentage": 9.79
+        },
+        {
+          "Rank": 4,
+          "City": "Perth",
+          "State/Territory": "Western Australia",
+          "Population_2017": 2043138,
+          "Growth": 18.18,
+          "Percentage": 8.31
+        },
+        {
+          "Rank": 5,
+          "City": "Adelaide",
+          "State/Territory": "South Australia",
+          "Population_2017": 1333927,
+          "Growth": 5.62,
+          "Percentage": 5.42
+        },
+        {
+          "Rank": 6,
+          "City": "Gold Coast-Tweed Heads",
+          "State/Territory": "Queensland/New South Wales",
+          "Population_2017": 663321,
+          "Growth": 18.91,
+          "Percentage": 2.70
+        },
+        {
+          "Rank": 7,
+          "City": "Newcastle-Maitland",
+          "State/Territory": "New South Wales",
+          "Population_2017": 481183,
+          "Growth": 20.67,
+          "Percentage": 1.96
+        },
+        {
+          "Rank": 8,
+          "City": "Canberra-Queanbeyan",
+          "State/Territory": "Australian Capital Territory/New South Wales",
+          "Population_2017": 447457,
+          "Growth": 14.25,
+          "Percentage": 1.82
+        },
+        {
+          "Rank": 9,
+          "City": "Sunshine Coast",
+          "State/Territory": "Queensland",
+          "Population_2017": 325399,
+          "Growth": 20.18,
+          "Percentage": 1.32
+        },
+        {
+          "Rank": 10,
+          "City": "Wollongong",
+          "State/Territory": "New South Wales",
+          "Population_2017": 299203,
+          "Growth": 11.25,
+          "Percentage": 1.22
+        },
+        {
+          "Rank": 11,
+          "City": "Geelong",
+          "State/Territory": "Victoria",
+          "Population_2017": 260138,
+          "Growth": 49.98,
+          "Percentage": 1.06
+        },
+        {
+          "Rank": 12,
+          "City": "Hobart",
+          "State/Territory": "Tasmania",
+          "Population_2017": 226884,
+          "Growth": 7.19,
+          "Percentage": 0.92
+        },
+        {
+          "Rank": 13,
+          "City": "Townsville",
+          "State/Territory": "Queensland",
+          "Population_2017": 180346,
+          "Growth": 11.12,
+          "Percentage": 0.73
+        },
+        {
+          "Rank": 14,
+          "City": "Cairns",
+          "State/Territory": "Queensland",
+          "Population_2017": 151925,
+          "Growth": 13.45,
+          "Percentage": 0.62
+        },
+        {
+          "Rank": 15,
+          "City": "Darwin",
+          "State/Territory": "Northern Territory",
+          "Population_2017": 146612,
+          "Growth": 21.58,
+          "Percentage": 0.6
+        },
+        {
+          "Rank": 16,
+          "City": "Toowoomba",
+          "State/Territory": "Queensland",
+          "Population_2017": 135631,
+          "Growth": 27.97,
+          "Percentage": 0.55
+        },
+        {
+          "Rank": 17,
+          "City": "Ballarat",
+          "State/Territory": "Victoria",
+          "Population_2017": 103481,
+          "Growth": 12.72,
+          "Percentage": 0.42
+        },
+        {
+          "Rank": 18,
+          "City": "Bendigo",
+          "State/Territory": "Victoria",
+          "Population_2017": 97096,
+          "Growth": 12.8,
+          "Percentage": 0.39
+        },
+        {
+          "Rank": 19,
+          "City": "Albury-Wodonga",
+          "State/Territory": "New South Wales/Victoria",
+          "Population_2017": 91923,
+          "Growth": 11.99,
+          "Percentage": 0.37
+        },
+        {
+          "Rank": 20,
+          "City": "Launceston",
+          "State/Territory": "Tasmania",
+          "Population_2017": 86788,
+          "Growth": 5.56,
+          "Percentage": 0.35
+        },
+        {
+          "Rank": 21,
+          "City": "Mackay",
+          "State/Territory": "Queensland",
+          "Population_2017": 80427,
+          "Growth": 4.05,
+          "Percentage": 0.33
+        },
+        {
+          "Rank": 22,
+          "City": "Rockhampton",
+          "State/Territory": "Queensland",
+          "Population_2017": 78871,
+          "Growth": 7.04,
+          "Percentage": 0.32
+        },
+        {
+          "Rank": 23,
+          "City": "Bunbury",
+          "State/Territory": "Western Australia",
+          "Population_2017": 74478,
+          "Growth": 13.52,
+          "Percentage": 0.3
+        },
+        {
+          "Rank": 24,
+          "City": "Coffs Harbour",
+          "State/Territory": "New South Wales",
+          "Population_2017": 70857,
+          "Growth": 10.3,
+          "Percentage": 0.29
+        },
+        {
+          "Rank": 25,
+          "City": "Bundaberg",
+          "State/Territory": "Queensland",
+          "Population_2017": 70578,
+          "Growth": 4.81,
+          "Percentage": 0.29
+        },
+        {
+          "Rank": 26,
+          "City": "Wagga Wagga",
+          "State/Territory": "New South Wales",
+          "Population_2017": 56181,
+          "Growth": 8,
+          "Percentage": 0.23
+        },
+        {
+          "Rank": 27,
+          "City": "Hervey Bay",
+          "State/Territory": "Queensland",
+          "Population_2017": 53492,
+          "Growth": 9.88,
+          "Percentage": 0.22
+        },
+        {
+          "Rank": 28,
+          "City": "Mildura-Wentworth",
+          "State/Territory": "Victoria/New South Wales",
+          "Population_2017": 51473,
+          "Growth": 8.28,
+          "Percentage": 0.21
+        },
+        {
+          "Rank": 29,
+          "City": "Shepparton-Mooroopna",
+          "State/Territory": "Victoria",
+          "Population_2017": 51142,
+          "Growth": 9.97,
+          "Percentage": 0.21
+        },
+        {
+          "Rank": 30,
+          "City": "Port Macquarie",
+          "State/Territory": "New South Wales",
+          "Population_2017": 46948,
+          "Growth": 12.52,
+          "Percentage": 0.19
+        },
+        {
+          "Rank": 31,
+          "City": "Gladstone-Tannum Sands",
+          "State/Territory": "Queensland",
+          "Population_2017": 44984,
+          "Growth": 7.19,
+          "Percentage": 0.18
+        },
+        {
+          "Rank": 32,
+          "City": "Tamworth",
+          "State/Territory": "New South Wales",
+          "Population_2017": 42347,
+          "Growth": 9.32,
+          "Percentage": 0.17
+        },
+        {
+          "Rank": 33,
+          "City": "Traralgon-Morwell",
+          "State/Territory": "Victoria",
+          "Population_2017": 41626,
+          "Growth": 4.84,
+          "Percentage": 0.17
+        },
+        {
+          "Rank": 34,
+          "City": "Orange",
+          "State/Territory": "New South Wales",
+          "Population_2017": 40079,
+          "Growth": 9.9,
+          "Percentage": 0.16
+        },
+        {
+          "Rank": 35,
+          "City": "Bowral-Mittagong",
+          "State/Territory": "New South Wales",
+          "Population_2017": 39300,
+          "Growth": 12.74,
+          "Percentage": 0.16
+        },
+        {
+          "Rank": 36,
+          "City": "Busselton",
+          "State/Territory": "Western Australia",
+          "Population_2017": 38289,
+          "Growth": 26.42,
+          "Percentage": 0.15
+        },
+        {
+          "Rank": 37,
+          "City": "Geraldton",
+          "State/Territory": "Western Australia",
+          "Population_2017": 37931,
+          "Growth": 6.1,
+          "Percentage": 0.15
+        },
+        {
+          "Rank": 38,
+          "City": "Dubbo",
+          "State/Territory": "New South Wales",
+          "Population_2017": 37666,
+          "Growth": 10.79,
+          "Percentage": 0.15
+        },
+        {
+          "Rank": 39,
+          "City": "Nowra-Bomaderry",
+          "State/Territory": "New South Wales",
+          "Population_2017": 37027,
+          "Growth": 11.07,
+          "Percentage": 0.15
+        },
+        {
+          "Rank": 40,
+          "City": "Warragul-Drouin",
+          "State/Territory": "Victoria",
+          "Population_2017": 36538,
+          "Growth": 22.02,
+          "Percentage": 0.15
+        },
+        {
+          "Rank": 41,
+          "City": "Bathurst",
+          "State/Territory": "New South Wales",
+          "Population_2017": 36448,
+          "Growth": 12.22,
+          "Percentage": 0.15
+        },
+        {
+          "Rank": 42,
+          "City": "Warrnambool",
+          "State/Territory": "Victoria",
+          "Population_2017": 34912,
+          "Growth": 7.82,
+          "Percentage": 0.14
+        },
+        {
+          "Rank": 43,
+          "City": "Albany",
+          "State/Territory": "Western Australia",
+          "Population_2017": 34151,
+          "Growth": 11.4,
+          "Percentage": 0.14
+        },
+        {
+          "Rank": 44,
+          "City": "Kalgoorlie-Boulder",
+          "State/Territory": "Western Australia",
+          "Population_2017": 30541,
+          "Growth": -0.99,
+          "Percentage": 0.12
+        },
+        {
+          "Rank": 45,
+          "City": "Devonport",
+          "State/Territory": "Tasmania",
+          "Population_2017": 30153,
+          "Growth": 3.79,
+          "Percentage": 0.12
+        },
+        {
+          "Rank": 46,
+          "City": "Mount Gambier",
+          "State/Territory": "South Australia",
+          "Population_2017": 29472,
+          "Growth": 6.18,
+          "Percentage": 0.12
+        },
+        {
+          "Rank": 47,
+          "City": "Lismore",
+          "State/Territory": "New South Wales",
+          "Population_2017": 28764,
+          "Growth": 1.69,
+          "Percentage": 0.12
+        },
+        {
+          "Rank": 48,
+          "City": "Nelson Bay",
+          "State/Territory": "New South Wales",
+          "Population_2017": 27606,
+          "Growth": 10.1,
+          "Percentage": 0.12
+        },
+        {
+          "Rank": 49,
+          "City": "Maryborough",
+          "State/Territory": "Queensland",
+          "Population_2017": 27347,
+          "Growth": 4.32,
+          "Percentage": 0.11
+        },
+        {
+          "Rank": 50,
+          "City": "Burnie-Wynyard",
+          "State/Territory": "Tasmania",
+          "Population_2017": 26993,
+          "Growth": 0.46,
+          "Percentage": 0.11
+        }
+      ]
+    },
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "field": "Population_2017",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "y": {
+        "field": "Growth",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "size": {
+        "field": "Percentage",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "State/Territory",
+        "type": "nominal"
+      },
+      "tooltip": [
+        {"field": "City", "title": "City"},
+        {"field": "Population_2017", "title": "Population (2017)"},
+        {"field": "Growth", "title": "Growth"},
+        {"field": "Percentage", "title": "Percentage of National Population (2017)"}
+      ]
+    },
+    "width": 800,
+    "height": 400,
+    "title": "Scatter Plot of Australian Cities"
+  }
+  

@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Top 30 Cities by Population",
+    "data": {
+      "url": "au.csv"
+    },
+    "transform": [
+      {"sort": [{"field": "population", "order": "descending"}]},
+      {"window": [{"op": "row_number", "as": "rank"}]},
+      {"filter": "datum.rank <= 30"}
+    ],
+    "mark": {
+      "type": "line",
+      "point": {
+        "filled": false,
+        "fill": "white"
+      }
+    },
+    "encoding": {
+      "x": {
+        "field": "city",
+        "type": "nominal",
+        "title": "City"
+      },
+      "y": {
+        "field": "population",
+        "type": "quantitative",
+        "title": "Population"
+      },
+      "color": {
+        "field": "admin_name", 
+        "type": "nominal",
+        "title": "State"
+      }
+    },
+    "width": 800,
+    "height": 400
+  }
+  
